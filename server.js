@@ -17,10 +17,10 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY; // Your NVIDIA API key
  
 // 🔥 REASONING DISPLAY TOGGLE - Shows/hides reasoning in output
-const SHOW_REASONING = true; // Set to false to hide reasoning from output
+const SHOW_REASONING = false; // Set to false to hide reasoning from output
  
 // 🔥 THINKING MODE TOGGLE - Enables thinking for specific models that support it
-const ENABLE_THINKING_MODE = true; // Set to false to disable chat_template_kwargs thinking parameter
+const ENABLE_THINKING_MODE = false; // Set to false to disable chat_template_kwargs thinking parameter
  
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
