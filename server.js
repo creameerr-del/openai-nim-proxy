@@ -25,7 +25,7 @@ const ENABLE_THINKING_MODE = false; // Set to false to disable chat_template_kwa
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'nvidia/nemotron-3-ultra-550b-a55b',
-  'gpt-4': 'z-ai/glm-5.1',
+  'gpt-4': 'z-ai/glm-5.2',
   'gpt-4-turbo': 'moonshotai/kimi-k2.6',
   'gpt-4o': 'deepseek-ai/deepseek-v4-pro',
   'claude-3-opus': 'qwen/qwen3.5-122b-a10b',
